@@ -1,0 +1,201 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+
+.head{
+    height:5vh;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.head #links{
+   margin-right: 25px; 
+    display:flex;
+}
+.head #links a{
+    margin-left: 25px;
+    font-size:15px;
+    text-decoration: none;
+    color:black;
+   
+}
+.head #links a:hover{
+    border-bottom: 2px solid black;
+}
+
+.advancehead #links{
+    margin-right: 25px; 
+     display:flex;
+ }
+ .advancehead #links a{
+     margin-left: 25px;
+     font-size:15px;
+     text-decoration: none;
+     color:black;
+    
+ }
+ .advancehead #links a:hover{
+     border-bottom: 2px solid black;
+ }
+
+ 
+#main{
+    
+    padding-bottom:15vh;
+    height: 72vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+#main #input{
+    display:flex;
+    align-items:center;
+    padding:13px;
+    border: 1px solid;
+    height: 10px;
+    border-radius: 15px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+#main #input:hover{
+    box-shadow: 0 0 5px grey;
+}
+
+#main #input input{
+    width:100%;
+    border: none;
+    box-shadow:none !important;
+    outline: none !important;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+#main #button{
+    display: flex;
+    justify-content: center;
+}
+
+#main #button input{
+    background-color: rgba(242, 242, 242, 0.558);
+    border: 1px solid rgba(242, 242, 242, 0.558) ;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 20px 8px;
+    text-align:center;
+    cursor:pointer;
+}
+#main #button input:hover{
+    box-shadow: 0 0 5px grey;
+}
+
+.advancehead{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.adv{
+    border-bottom: 1px solid gainsboro;
+}
+.adv h2{
+    color:rgb(255, 85, 85);
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight:normal;
+}
+
+.logo{
+    width:auto;
+    display:flex;
+    align-items:center;
+}
+.logo img{
+    width:65px;
+    height:auto;
+}
+
+
+.advInput{
+    display:flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width:200px;
+    width: 96%;
+    margin: 30px 2% 0 45px;
+}
+
+.advInput .firstc{
+    font-size: 18px;
+    min-width: 167px;
+    width: 16%;
+    font-weight:500;
+}
+
+
+.advInput .fText{
+    width: 200px;
+    font-size: 13px;
+}
+.advInput .field{
+    width:200px;
+    width:40%;
+}
+
+.advInput .field input{
+    border-radius: 1px;
+    border: 1px solid gray;
+    font-size: 12px;
+    height:22px;
+    padding: 1px 8px;
+    width: 100%;
+}
+.advInput .secondc{
+    margin-left: 50px;
+}
+.advInput .sText {
+    width: 30%;
+    min-width:20px;
+    font-size:13px;
+    white-space: pre;
+
+}
+
+span{
+    font-family:monospace;
+    font-size: 11px;
+    white-space:pre;
+}
+.advInput #advbutton{
+
+    width:60%;
+    display: flex;
+    justify-content: flex-end;
+}
+#advbutton input{
+    height:30px;
+    min-width: 120px;
+    font-size: 10px;
+    background-color: rgb(81, 133, 254);
+    color:white;
+    border:none;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
